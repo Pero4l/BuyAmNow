@@ -7,7 +7,7 @@
 
 body{
     background-color: #ffe9d2;
-    height: 100vh;
+    height: 200vh;
     
 }
 
@@ -69,9 +69,50 @@ button{
 .btnst button{
     height: 35px;
     width: 120px;
-    background-color: #3b999c;
+    background-color: #e19797;
 }
 button:hover{
     background-color: #c47814;
     transition: 0.3sec;
 }
+
+.login{
+    display: flex;
+    justify-content: center;
+    padding: 60px 0px;
+}
+
+.log{
+    display: flex;
+    align-items: center;
+}
+
+.crtacc{
+    height: 39px;
+}
+
+.login{
+    border-radius: 30px;
+    background-color:#eed3b6;
+    border: none;
+   margin: 0px 400px;
+}
+
+.signup{
+    display: flex;
+    justify-content: center;
+    padding: 70px 0px;
+    border-radius: 30px;
+    background-color:#eed3b6;
+    border: none;
+    margin: 0px 200px;
+
+}
+
+.log button{
+    height: 39px;
+}
+
+
+
+
