@@ -44,7 +44,7 @@ a{
 }
 
 a:hover{
-    transition: 0.7sec;
+    transition: ease-in 2.7sec;
     background-color: white;
 }
 
@@ -73,7 +73,7 @@ button{
 }
 button:hover{
     background-color: #c47814;
-    transition: 0.3sec;
+    transition: ease 2.3sec;
 }
 
 .login{
@@ -116,6 +116,16 @@ button:hover{
 
 .row-1 p{
     font-size: small;
+}
+
+.about{
+    padding: 10px;
+    margin: 0px 120px;
+}
+
+.vendor{
+    padding: 10px;
+    margin: 0px 120px;
 }
 
 
