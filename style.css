@@ -1,4 +1,11 @@
-*{
+ @media (max-width: 576px) {
+
+    
+ }
+
+
+
+ *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -44,8 +51,8 @@ a{
 }
 
 a:hover{
-    transition: ease-in 2.7sec;
-    background-color: white;
+    color:#db973e;
+    transition: ease-in 0.2s;
 }
 
 .content-1{
@@ -73,7 +80,14 @@ button{
 }
 button:hover{
     background-color: #c47814;
-    transition: ease 2.3sec;
+    transition: ease-in 0.4s;
+}
+
+
+.change{
+        background-color: #eed3b6;
+    
+    
 }
 
 .login{
@@ -126,6 +140,149 @@ button:hover{
 .vendor{
     padding: 10px;
     margin: 0px 120px;
+}
+
+.avapro-1{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 10px;
+    margin: 0px 70px;
+    margin-left: 20px;
+    gap: 20px;
+}
+
+.avapro-2{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 10px;
+    margin: 0px 70px;
+    margin-left: 20px;
+    gap: 20px;
+}
+
+
+.avapro-3{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 10px;
+    margin: 0px 70px;
+    margin-left: 20px;
+    gap: 20px;
+}
+
+.products p{
+    text-align: center;
+    
+}
+
+.placeholder{
+    padding: 0px 10px;
+}
+
+.products{
+    background-color:#eed3b6;
+    border-radius: 20px;
+    padding-top: 40px;
+    margin: 0px 100px;
+}
+
+.avapro-1{
+
+    margin: 0px 110px;
+}
+
+.avapro-2{
+
+    margin: 0px 110px;
+}
+
+.avapro-3{
+
+    margin: 0px 110px;
+}
+
+
+
+/* dropdown */
+
+
+
+/* .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    min-width: 200px;
+    padding: 8px 0;
+    z-index: 100;
+  }
+  
+  .dropdown-menu::before {
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 0 6px 6px 6px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+  }
+  
+  .dropdown-menu li {
+    padding: 8px 16px;
+    list-style-type: none;
+  }
+  
+  .dropdown-menu a {
+    color: #333;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dropdown-menu a:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block; */
+
+
+
+
+.item-1 a:hover{
+    background-color: #eb9494;
+}
+
+.item-2 a:hover{
+    background-color: #eb9494;
+}
+
+.item-3 a:hover{
+    background-color: #eb9494;
+}
+
+.item-4 a:hover{
+    background-color: #eb9494;
+}
+
+.item-5 a:hover{
+    background-color: #eb9494;
+}
+
+i{
+    color: #e19797;
 }
 
 
